@@ -61,5 +61,5 @@ app.post("/work", function(req, res) {
 
 const port = process.env.port || 3000;
 app.listen(port, function() {
-  console.log("server running on " port);
+  console.log("server running on 3000");
 })
